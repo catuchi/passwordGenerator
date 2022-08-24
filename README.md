@@ -16,7 +16,7 @@ Javascript, HTML, CSS, Parcel Bundler
 
 ## Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/catuchi/TextToSpeech/main/dist/img/App%20Screenshot.png)
+![App Screenshot](https://github.com/catuchi/passwordGenerator/blob/main/img/password_generator_screenshot.png?raw=true)
 
 ## Authors
 
