@@ -14,6 +14,10 @@ Javascript, HTML, CSS, Parcel Bundler
 
 [Browser Character Set Docs](http://www.net-comber.com/charset.html)
 
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/catuchi/TextToSpeech/main/dist/img/App%20Screenshot.png)
+
 ## Authors
 
 - [Chibu Atuchi](https://www.github.com/catuchi)
