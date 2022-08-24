@@ -8,6 +8,7 @@ const symbolsEL = document.getElementById("symbols");
 const generateEL = document.getElementById("generate");
 const clipboardEL = document.getElementById("clipboard");
 
+// Generate password event listen
 generateEL.addEventListener("click", () => {
   const length = +lengthEL.value;
   const hasLower = lowercaseEL.checked;
@@ -23,6 +24,37 @@ generateEL.addEventListener("click", () => {
     length
   );
 });
+
+// Generate password function
+function generatePassword(lower, upper, number, symbol, length) {
+  let generatedPw = "";
+
+  const typesCount = upper + lower + number + symbol;
+
+  // console.log({ typesCount });
+
+  const typesArr = [{ upper }, { lower }, { number }, { symbol }].filter(
+    (item) => Object.values(item)[0]
+  );
+
+  // console.log(typesArr);
+
+  if (typesCount === 0) return "";
+
+  for (let i = 0; i < length; i += typesCount) {
+    typesArr.forEach((type) => {
+      const funcName = Object.keys(type)[0];
+
+      // console.log({ funcName });
+
+      generatedPw += randomFunc[funcName]();
+    });
+  }
+
+  const finalPassword = generatedPw.slice(0, length);
+
+  return finalPassword;
+}
 
 const randomFunc = {
   lower: getRandomLower,
