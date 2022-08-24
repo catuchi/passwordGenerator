@@ -4,7 +4,7 @@
 
 ## Demo
 
-This app is deployed on netlify. Try it [Password Generator](https://whimsical-cobbler-7797c5.netlify.app/)
+This app is deployed on netlify. Try it [Password Generator](https://regal-salmiakki-1c90b5.netlify.app/)
 
 ## Tech Stack
 
