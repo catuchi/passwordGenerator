@@ -1,0 +1,25 @@
+{
+  "name": "password_generator",
+  "version": "1.0.0",
+  "description": "A password generator app with length and character options",
+  "default": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catuchi/passwordGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catuchi/passwordGenerator/issues"
+  },
+  "homepage": "https://github.com/catuchi/passwordGenerator#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
